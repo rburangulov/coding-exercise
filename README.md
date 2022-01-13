@@ -1,4 +1,4 @@
 Required Python 3 modules:
 
-watchog
+watchog  
 dotenv
