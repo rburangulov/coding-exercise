@@ -2,8 +2,8 @@ from multiprocessing.connection import Listener
 import config
 
 listener = Listener((config.server_address, config.server_port))
-running = True
-while running:
+
+while True:
     conn = listener.accept()
     while True:
         msg = conn.recv()
